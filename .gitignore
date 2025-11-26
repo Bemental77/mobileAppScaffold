@@ -1,0 +1,15 @@
+# Java / Maven
+backend/target/
+**/target/
+
+# Node / Angular / Ionic
+node_modules/
+angular-client/node_modules/
+mobile-app/node_modules/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
