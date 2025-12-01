@@ -1,0 +1,15 @@
+<!-- Paste into src/app/greet/greet.component.html -->
+<div class="container">
+  <label>
+    Your name:
+    <input [(ngModel)]="name" />
+  </label>
+  <div>
+    <button (click)="callJava()">Call Java REST</button>
+    <button (click)="callPhp()">Call PHP REST</button>
+  </div>
+  <div class="response">
+    <strong>Response:</strong>
+    <pre>{{ message }}</pre>
+  </div>
+</div>
