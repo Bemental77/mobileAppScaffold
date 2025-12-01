@@ -1,12 +1,11 @@
-# One-day Polyglot Scaffold (Java, PHP, Angular, Ionic)
+# Polyglot Scaffold (Java, PHP, Angular, Ionic)
 
-This repository is a minimal scaffold to let you practice and build a small full-stack app in one day using:
+This repository is a minimal scaffold to build a small full-stack app 
 - Java (Spring Boot) — REST + SOAP
 - PHP — small microservice with REST & SOAP client
 - Angular — web client (dev proxy provided)
 - Ionic (Angular) — mobile app (instructions to create and reuse Angular services)
 
-What I added for you
 - backend/: Spring Boot app with:
   - REST endpoint: GET /api/greet?name=...
   - SOAP endpoint published at http://localhost:8080/ws/Calculator
@@ -15,7 +14,7 @@ What I added for you
 - small example Angular service/component snippets you can paste into a generated Angular app.
 - .gitignore
 
-Quickstart (complete this in one day)
+Quickstart
 
 1) Run Java backend
 - From repository root:
@@ -50,13 +49,13 @@ Quickstart (complete this in one day)
 - Reuse Angular services and components you created in angular-client (copy /src/app services and modules into the Ionic project).
 - Run in browser: ionic serve
 
-Files to look at and edit first
+Files to edit first
 - backend/src/main/java/.../RestApiController.java (simple REST)
 - backend/src/main/java/.../soap/CalculatorServiceImpl.java (simple SOAP)
 - php/api/index.php (REST + SOAP client)
 - angular-client/proxy.conf.json (dev proxy)
 
-Next steps while you work today
+Next steps
 - Implement a simple UI in Angular to call the Java REST and PHP REST endpoints.
 - Add tests: JUnit for Java, basic PHPUnit or manual curl checks for PHP, Jasmine/Karma for Angular.
 - Add a small "contacts" CRUD if you want persistence practice (H2 in-memory for speed).
